@@ -27,11 +27,27 @@
             $defaults = array(
               'container' => false,
               'theme_location' => 'primary-menu',
-              'menu_class' => 'no-bullet menu sticky cap'
+              'menu_class' => 'no-bullet menu sticky cap hide-for-small-only'
             );
 
             wp_nav_menu($defaults)
            ?>
         </nav>
+        <div class="">
+          <span class="show-for-small-only menubutton">menu</span>
+        </div>
+
+        <div class="mobilenav hide">
+
+          <?php
+            $defaults = array(
+              'container' => false,
+              'theme_location' => 'primary-menu',
+              'menu_class' => 'no-bullet mobile-menu menu cap transition'
+            );
+
+            wp_nav_menu($defaults)
+           ?>
+        </div>
       </header>
     </div>

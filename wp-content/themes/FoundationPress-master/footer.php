@@ -46,6 +46,12 @@ $(document).ready(function(){
 				$('#header').removeClass('scroll-header');
 		}
 	});
+
+  $( ".menubutton" ).click(function() {
+    console.log('hey');
+    $( 'mobilenav' ).removeClass('hide');
+  });
+
 });
 </script>
 <?php wp_footer(); ?>

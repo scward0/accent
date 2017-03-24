@@ -42,13 +42,15 @@
             $i++;
             ?>
             <div class="columns small-12 large-6">
-              <a href="#" data-reveal-id="image-<?php echo $i ?>" >
+              <a href="#" data-open="image-<?php echo $i ?>" >
                 <img src="<?php the_sub_field('image');?>" alt="" style="padding: 5px;"/>
               </a>
               <div class="text-center">
-                <div id="image-<?php echo $i ?>" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style="width: auto;">
-                  <img src="<?php the_sub_field('image');?>" width="500px" alt="" style="display: block; margin-left: auto; margin-right: auto; padding: 20px;" />
-                  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+                <div id="image-<?php echo $i ?>" class="reveal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style="width: auto;">
+                  <button class="close-button" data-close aria-label="Close modal" type="button">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <img src="<?php the_sub_field('image');?>"  alt="" style="display: block; margin-left: auto; margin-right: auto; padding: 20px; width: 200%;" />
                 </div>
               </div>
             </div>
