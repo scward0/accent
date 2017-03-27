@@ -59,6 +59,37 @@
         endif;
         ?>
       </div>
+      <p class="text-center" style="font-size: 28px; font-weight: bold;">
+        BEFORE
+      </p>
+      <div class="row">
+      <?php
+        // check if the repeater field has rows of data
+        if( have_rows('gallery_before') ): $i = 0;
+          // loop through the rows of data
+            while ( have_rows('gallery_before') ) : the_row();
+            $i++;
+            ?>
+            <div class="columns small-12 large-6">
+              <a href="#" data-open="before-image-<?php echo $i ?>" >
+                <img src="<?php the_sub_field('image');?>" alt="" style="padding: 5px;"/>
+              </a>
+              <div class="text-center">
+                <div id="before-image-<?php echo $i ?>" class="reveal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style="width: auto;">
+                  <button class="close-button" data-close aria-label="Close modal" type="button">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <img src="<?php the_sub_field('image');?>"  alt="" style="display: block; margin-left: auto; margin-right: auto; padding: 20px; width: 200%;" />
+                </div>
+              </div>
+            </div>
+            <?php
+            endwhile;
+        endif;
+        ?>
+      </div>
+
+
     </div>
 
   <?php endif; ?>
