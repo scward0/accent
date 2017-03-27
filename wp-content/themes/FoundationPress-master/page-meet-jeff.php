@@ -22,7 +22,7 @@
   <div class="container" style="background: #4d4d4d;">
     <div class="row" style="padding: 100px;">
       <div class="columns small-12 medium-6 large-3 text-center">
-        <img src="http://localhost:88/Accent/wp-content/uploads/2017/03/headshot2.jpg" alt="">
+        <img src="/Accent/wp-content/uploads/2017/03/headshot2.jpg" alt="">
       </div>
       <div class="columns small-12 medium-6 large-9">
         <?php
