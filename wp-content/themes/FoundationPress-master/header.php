@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?php wp_title(); ?></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <?php wp_head(); ?>
   </head>
 
@@ -50,7 +51,7 @@
             $defaults = array(
               'container' => false,
               'theme_location' => 'primary-menu',
-              'menu_class' => 'no-bullet menu-vertical transition'
+              'menu_class' => 'no-bullet menu-vertical transition text-center'
             );
 
             wp_nav_menu($defaults)

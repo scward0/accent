@@ -7912,7 +7912,7 @@ header h1 {
   left: 50%; }
 
 #nav-icon3 span {
-  background: #555555 !important; }
+  background: black !important; }
 
 @media screen and (max-width: 639px) {
   .mobile-nav {
@@ -7920,7 +7920,7 @@ header h1 {
     width: 100%;
     height: 100%;
     position: fixed;
-    top: 69%;
+    top: 0;
     -webkit-transform: translateX(-50%) translateY(-50%);
         -ms-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%) translateY(-50%);
@@ -7933,7 +7933,7 @@ header h1 {
     position: relative;
     font-weight: bold;
     font-size: 24px;
-    color: #555;
+    color: black;
     text-transform: uppercase; } }
 
 .front {
