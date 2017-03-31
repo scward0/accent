@@ -47,12 +47,18 @@ $(document).ready(function(){
 		}
 	});
 
-  $( ".menubutton" ).click(function() {
-    console.log('hey');
-    $( 'mobilenav' ).removeClass('hide');
+  $('#nav-icon3').click(function(){
+    if ($(this).hasClass('open') ) {
+      $(this).removeClass('open');
+      $('.mobile-nav').removeClass('fadeIn');
+      $('.mobile-nav').addClass('hide fadeOut');
+    }else{
+        $(this).addClass('open');
+        $('.mobile-nav').removeClass('hide fadeOut');
+        $('.mobile-nav').addClass('fadeIn');
+      }
+    });
   });
-
-});
 </script>
 <?php wp_footer(); ?>
 

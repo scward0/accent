@@ -13,6 +13,15 @@
 
       <div id="header" class="fixed transition" style="position: fixed; width: 100%;">
       <header class="row no-max pad main">
+        <div id="hamburger" class="show-for-small-only">
+          <div id="nav-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
         <style media="screen">
         @media screen and (max-width: 768px){
           .desk-logo{
@@ -21,6 +30,7 @@
 
         }
         </style>
+
         <a class="desk-logo" href="<?php bloginfo('url'); ?>"><img src="/Accent/wp-content/uploads/2017/03/new_accent_logo.png" width="200" alt="<?php bloginfo('name'); ?>"/></a>
         <nav id="mainnav" class="mainnav" role="navigation">
           <?php
@@ -33,9 +43,7 @@
             wp_nav_menu($defaults)
            ?>
         </nav>
-        <div class="">
-          <span class="show-for-small-only menubutton">menu</span>
-        </div>
+
 
         <div class="mobilenav hide">
 
