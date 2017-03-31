@@ -7855,8 +7855,8 @@ header h1 {
   .headline {
     top: 55%;
     padding: 1%; }
-  .front, .single {
-    background-attachment: scroll; } }
+  .front, .single, .projects, .services, .jeff {
+    background-attachment: scroll !important; } }
 
 .project-thumbnail {
   padding: 5%; }

@@ -7,7 +7,7 @@
 ?>
 
 <div class="container">
-  <div style="background: url('<?php the_post_thumbnail_url(); ?>'); height: 100%; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;" >
+  <div class="projects" style="background: url('<?php the_post_thumbnail_url(); ?>'); height: 100%; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;" >
     <?php get_header(); ?>
     <div class="headline">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
