@@ -45,13 +45,12 @@
         </nav>
 
 
-        <div class="mobilenav hide">
-
+        <div class="mobile-nav hide">
           <?php
             $defaults = array(
               'container' => false,
               'theme_location' => 'primary-menu',
-              'menu_class' => 'no-bullet mobile-menu menu cap transition'
+              'menu_class' => 'no-bullet menu-vertical transition'
             );
 
             wp_nav_menu($defaults)
