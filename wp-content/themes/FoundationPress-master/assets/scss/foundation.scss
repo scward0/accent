@@ -279,16 +279,15 @@ header h1 {
   color: #555555 !important;
   position: fixed;
   right: 30px;
-  top: 0;
+  top: 30px;
 }
 
 /* Icon 1 */
 
  #nav-icon3 {
-  width: 50px;
-  height: 30px;
+  width: 35px;
   position: relative;
-  margin: 50px auto;
+  margin: 0px auto;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -303,10 +302,10 @@ header h1 {
  #nav-icon3 span{
   display: block;
   position: absolute;
-  height: 9px;
+  height: 5px;
   width: 100%;
   background: black;
-  border-radius: 9px;
+  border-radius: 5px;
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
