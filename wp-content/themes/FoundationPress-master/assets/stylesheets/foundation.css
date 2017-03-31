@@ -7791,22 +7791,6 @@ header h1 {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
-#mainnav ul li ul ul {
-  top: 0; }
-
-#mainnav ul li ul:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 1px; }
-
-#mainnav ul li ul ul:after {
-  top: 0; }
-
-#mainnav ul li ul li ul {
-  left: 100%; }
-
 #mainnav li:hover > ul {
   opacity: 1;
   padding-top: 10px;
@@ -7838,6 +7822,15 @@ header h1 {
 #mainnav li:hover > .sub-menu > li > a {
   padding: 8px 18px; }
 
+.front {
+  background: url("/Accent/wp-content/uploads/2017/03/IMG_0238a.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
+
 .headline {
   background-color: rgba(0, 0, 0, 0.4);
   -webkit-background-size: cover;
@@ -7850,10 +7843,20 @@ header h1 {
           transform: translateX(-50%) translateY(-50%);
   padding: 5%; }
 
+.single {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
+
 @media screen and (max-width: 768px) {
   .headline {
     top: 55%;
-    padding: 1%; } }
+    padding: 1%; }
+  .front, .single {
+    background-attachment: scroll; } }
 
 .project-thumbnail {
   padding: 5%; }

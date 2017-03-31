@@ -1,7 +1,7 @@
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <?php if( get_the_post_thumbnail() ) : ?>
     <div class="container">
-      <div style="background: url('<?php the_post_thumbnail_url(); ?>');  height: 100%; background-attachment: fixed; background-position: center; background-repeat: no-repeat;  background-size: cover;">
+      <div class="single" style="background: url('<?php the_post_thumbnail_url(); ?>');">
         <?php get_header(); ?>
         <div class="headline">
           <h1 class="text-center" style="color: white; text-transform: uppercase;"><?php the_title(); ?></h1>

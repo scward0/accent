@@ -1,5 +1,5 @@
 <div class="container">
-  <div style="background: url('/Accent/wp-content/uploads/2017/03/IMG_0238a.jpg'); height: 100%; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;" >
+  <div class="front">
     <?php get_header(); ?>
     <div class="headline">
       <h1 class="text-center" style="color: white; font-size: 50px;">WHAT IS YOUR VISION?</h1>
