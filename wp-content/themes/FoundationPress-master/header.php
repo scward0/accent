@@ -26,7 +26,7 @@
         <style media="screen">
         @media screen and (max-width: 768px){
           .desk-logo{
-            display: none;
+            width: 100px;
           }
 
         }
