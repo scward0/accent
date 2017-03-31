@@ -9,7 +9,7 @@
 
   <body <?php body_class(); ?>>
 
-
+    <div id="wptime-plugin-preloader"></div>
 
       <div id="header" class="fixed transition" style="position: fixed; width: 100%;">
       <header class="row no-max pad main">
