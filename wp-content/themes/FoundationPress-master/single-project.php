@@ -3,28 +3,28 @@
     <div class="container">
       <div class="single" style="background: url('<?php the_post_thumbnail_url(); ?>');  height: 100%; background-attachment: fixed; background-position: center; background-repeat: no-repeat;  background-size: cover;">
         <?php get_header(); ?>
-        <div class="headline">
+        <div class="headline single-headline">
           <h1 class="text-center" style="color: white; text-transform: uppercase;"><?php the_title(); ?></h1>
           <div class="description" style="text-align: left;">
             <?php the_field('description'); ?>
           </div>
 
           <div class="navigation">
-            <p class="prev-post" style="color: white; position: absolute; left: -30%;">
-              <?php
+
+            <?php
               $prev_post = get_previous_post();
               if (!empty( $prev_post )): ?>
-                <a href="<?php echo get_permalink( $prev_post->ID ); ?>"><i class="fa fa-chevron-left fa-4x" aria-hidden="true"></i></a>
+                <a href="<?php echo get_permalink( $prev_post->ID ); ?>"><i style="color: white; position: relative; left: -50px;" class="fa fa-chevron-left fa-3x" aria-hidden="true"></i></a>
               <?php endif; ?>
-            </p>
-            <p class="next-post" style="color: white; position: absolute; right: -30%;">
+
               <?php
               $next_post = get_next_post();
               if (!empty( $next_post )): ?>
-                <a href="<?php echo get_permalink( $next_post->ID ); ?>"><i class="fa fa-chevron-right fa-4x" aria-hidden="true"></i></a>
+                <a href="<?php echo get_permalink( $next_post->ID ); ?>"><i style="color: white; position: relative; right: -50px;" class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></a>
               <?php endif; ?>
-            </p>
+
           </div>
+
         </div>
         <div class="arrow">
           <img src="/Accent/wp-content/uploads/2017/03/arrow-down@2x.png"  width="100px" alt="Arrow Down" style="position: absolute; top: 90%; left: 50%; transform: translateX(-50%) translateY(-50%);" />
