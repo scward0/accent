@@ -409,17 +409,20 @@ header h1 {
     padding-top:5%;
   }
 
+
+
   .mobile-nav ul {
     list-style: none !important;
+    margin-top:30%;
   }
 
   .mobile-nav ul li a{
     position: relative;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 36px;
     color: black;
     text-transform: uppercase;
-    margin-top: 30%;
+    padding: 20px;
   }
 }
 

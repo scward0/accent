@@ -7927,14 +7927,15 @@ header h1 {
     left: 50%;
     padding-top: 5%; }
   .mobile-nav ul {
-    list-style: none !important; }
+    list-style: none !important;
+    margin-top: 30%; }
   .mobile-nav ul li a {
     position: relative;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 36px;
     color: black;
     text-transform: uppercase;
-    margin-top: 30%; } }
+    padding: 20px; } }
 
 .front {
   background: url("/Accent/wp-content/uploads/2017/03/IMG_0238a.jpg");
