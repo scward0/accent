@@ -7931,9 +7931,10 @@ header h1 {
   .mobile-nav ul li a {
     position: relative;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
     color: black;
-    text-transform: uppercase; } }
+    text-transform: uppercase;
+    margin-top: 30%; } }
 
 .front {
   background: url("/Accent/wp-content/uploads/2017/03/IMG_0238a.jpg");
