@@ -9,18 +9,18 @@
             <?php the_field('description'); ?>
           </div>
 
-          <div class="navigation">
+          <div class="navigation text-center">
 
             <?php
               $prev_post = get_previous_post();
               if (!empty( $prev_post )): ?>
-                <a href="<?php echo get_permalink( $prev_post->ID ); ?>"><i style="color: white; position: relative; left: -50px;" class="fa fa-chevron-left fa-3x" aria-hidden="true"></i></a>
+                <a href="<?php echo get_permalink( $prev_post->ID ); ?>"><i style="color: white; position: relative; right: 175px;" class="fa fa-chevron-left fa-3x" aria-hidden="true"></i></a>
               <?php endif; ?>
 
               <?php
               $next_post = get_next_post();
               if (!empty( $next_post )): ?>
-                <a href="<?php echo get_permalink( $next_post->ID ); ?>"><i style="color: white; position: relative; right: -50px;" class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></a>
+                <a href="<?php echo get_permalink( $next_post->ID ); ?>"><i style="color: white; position: relative; left: 175px;" class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></a>
               <?php endif; ?>
 
           </div>
