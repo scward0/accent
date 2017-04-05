@@ -103,36 +103,7 @@
 
 body, html {
    height: 100%;
-}
-@-moz-keyframes logo-fade {
-  0% {
-    opacity: 0;
-  }
 
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes logo-fade {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes logo-fade {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
 
 .no-max {
   max-width: 100%;
@@ -409,8 +380,6 @@ header h1 {
     padding-top:5%;
   }
 
-
-
   .mobile-nav ul {
     list-style: none !important;
     margin-top:30%;
@@ -502,19 +471,6 @@ header h1 {
 	-moz-transition: all 1s ease-in-out;
 	-o-transition: all 1s ease-in-out;
 	transition: all 1s ease-in-out;
-}
-
-.prev-post a{
-  color: white;
-  /*background: url('http://www.clker.com/cliparts/Z/n/k/Z/y/j/left-arrow-gray-hi.png') no-repeat;*/
-}
-
-.next-post a{
-  color: white;
-  /*display: none;
-  width: 100px;
-  height: 100px;*/
-  /*background: url('http://www.clker.com/cliparts/V/1/Z/A/h/U/left-arrow-right-hi.png') no-repeat;*/
 }
 
 .menu .active > a{
