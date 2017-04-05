@@ -7694,18 +7694,6 @@ body#tinymce {
 body, html {
   height: 100%; }
 
-@-webkit-keyframes logo-fade {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-@keyframes logo-fade {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
 .no-max {
   max-width: 100%; }
 
@@ -7966,13 +7954,29 @@ header h1 {
   -webkit-background-size: cover;
           background-size: cover; }
 
+.fa-chevron-left {
+  color: white;
+  position: relative;
+  right: 175px; }
+
+.fa-chevron-right {
+  color: white;
+  position: relative;
+  left: 175px; }
+
 @media screen and (max-width: 768px) {
   .headline {
     top: 55%;
     padding: 1%;
     width: 90%; }
   .front, .single, .projects, .services, .jeff {
-    background-attachment: scroll !important; } }
+    background-attachment: scroll !important; }
+  .single-headline {
+    width: 70%; }
+  .fa-chevron-left {
+    right: 100px; }
+  .fa-chevron-right {
+    left: 100px; } }
 
 .project-thumbnail {
   padding: 5%; }
@@ -8002,17 +8006,6 @@ header h1 {
 .transition {
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out; }
-
-.prev-post a {
-  color: white;
-  /*background: url('http://www.clker.com/cliparts/Z/n/k/Z/y/j/left-arrow-gray-hi.png') no-repeat;*/ }
-
-.next-post a {
-  color: white;
-  /*display: none;
-  width: 100px;
-  height: 100px;*/
-  /*background: url('http://www.clker.com/cliparts/V/1/Z/A/h/U/left-arrow-right-hi.png') no-repeat;*/ }
 
 .menu .active > a {
   background: none; }

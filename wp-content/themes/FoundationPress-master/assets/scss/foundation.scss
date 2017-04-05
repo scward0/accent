@@ -103,7 +103,7 @@
 
 body, html {
    height: 100%;
-
+}
 
 .no-max {
   max-width: 100%;
@@ -422,6 +422,19 @@ header h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.fa-chevron-left{
+  color: white;
+  position: relative;
+  right: 175px;
+}
+
+.fa-chevron-right{
+  color: white;
+  position: relative;
+  left: 175px;
+}
+
 @media screen and (max-width: 768px){
   .headline{
     top: 55%;
@@ -434,12 +447,20 @@ header h1 {
   .single-headline{
     width: 70%;
   }
+  .fa-chevron-left{
+    right: 100px;
+  }
+
+  .fa-chevron-right{
+    left: 100px;
+  }
 }
+
 
 
 .project-thumbnail{
   padding: 5%;
-  }
+}
 
 .description p{
   color: white;
