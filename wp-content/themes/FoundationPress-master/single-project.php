@@ -14,14 +14,14 @@
               <?php
               $prev_post = get_previous_post();
               if (!empty( $prev_post )): ?>
-                <a href="<?php echo get_permalink( $prev_post->ID ); ?>"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                <a href="<?php echo get_permalink( $prev_post->ID ); ?>"><i class="fa fa-chevron-left 4x" aria-hidden="true"></i></a>
               <?php endif; ?>
             </p>
             <p class="next-post" style="color: white; position: absolute; right: -30%;">
               <?php
               $next_post = get_next_post();
               if (!empty( $next_post )): ?>
-                <a href="<?php echo get_permalink( $next_post->ID ); ?>"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a href="<?php echo get_permalink( $next_post->ID ); ?>"><i class="fa fa-chevron-right 4x" aria-hidden="true"></i></a>
               <?php endif; ?>
             </p>
           </div>
