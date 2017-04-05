@@ -10,12 +10,12 @@
           </div>
 
           <div class="navigation">
-            <p class="prev-post" style="color: white; position: absolute; left: -30%;">
+            <p class="next-post" style="color: white; position: absolute; right: -30%;">
               <?php
               $prev_post = get_previous_post();
-              if (!empty( $prev_post )): ?>
-                <a href="<?php echo $prev_post->guid ?>"><?php echo $prev_post->post_title ?></a>
-              <?php endif ?>
+              if (!empty( $next_post )): ?>
+                <a href="<?php echo get_permalink( $prev_post->ID ); ?>"><?php echo $prev_post->post_title; ?></a>
+              <?php endif; ?>
             </p>
             <p class="next-post" style="color: white; position: absolute; right: -30%;">
               <?php
