@@ -54,7 +54,7 @@
                 <img src="<?php the_sub_field('image');?>" alt="" style="padding: 5px;"/>
               </a>
               <div class="text-center">
-                <div id="image-<?php echo $i ?>" class="reveal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style="height: 80%; width: auto; top: 125px;">
+                <div id="image-<?php echo $i ?>" class="reveal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style="top:125px !imporant; height: 80%; width: auto; height: 80%; width: auto; top: 125px;">
                   <button class="close-button" data-close aria-label="Close modal" type="button">
                     <span aria-hidden="true">&times;</span>
                   </button>
@@ -83,7 +83,7 @@
                 <img src="<?php the_sub_field('image');?>" alt="" style="padding: 5px;"/>
               </a>
               <div class="text-center">
-                <div id="before-image-<?php echo $i ?>" class="reveal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style="height: 80%; width: auto; top: 125px;">
+                <div id="before-image-<?php echo $i ?>" class="reveal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style=" ">
                   <button class="close-button" data-close aria-label="Close modal" type="button">
                     <span aria-hidden="true">&times;</span>
                   </button>
