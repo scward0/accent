@@ -12,7 +12,7 @@
 
     <div id="wptime-plugin-preloader"></div>
 
-      <div id="header" class="fixed transition" style="position: fixed; width: 100%;">
+      <div id="header" class="fixed transition" style="position: fixed; width: 100%; z-index: 10000;">
       <header class="row no-max pad main">
         <div id="hamburger" class="show-for-small-only">
           <div id="nav-icon3">
