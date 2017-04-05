@@ -10,7 +10,7 @@
           </div>
 
           <div class="navigation">
-            <p class="next-post" style="color: white; position: absolute; right: -30%;">
+            <p class="prev-post" style="color: white; position: absolute; left: -30%;">
               <?php
               $prev_post = get_previous_post();
               if (!empty( $prev_post )): ?>
