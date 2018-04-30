@@ -19,6 +19,19 @@
     </div>
   </div>
 
+  <style media="screen">
+    .button{
+      background: #4D4D4D;
+      color: white;
+      border: solid 2px white;
+      font-size: 18px;
+    }
+    .button:hover{
+      background: white;
+      color: #4d4d4d;
+    }
+  </style>
+
   <div class="container" style="background: #4d4d4d;">
     <div class="row" style="padding: 5%;">
       <?php
