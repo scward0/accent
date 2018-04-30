@@ -4,7 +4,7 @@
       <br>
       <div class="row" style="padding: 20px; max-width: 200.5em;">
         <div class="small-12  medium-12 large-3 columns">
-          <a class="footer-item" href="<?php bloginfo('url'); ?>"><img class="footer-item" src="/Accent/wp-content/uploads/2017/03/new_accent_logo.png" width="200" alt="<?php bloginfo('name'); ?>"/></a>
+          <a class="footer-item" href="<?php bloginfo('url'); ?>"><img class="footer-item" src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/new_accent_logo.png" width="200" alt="<?php bloginfo('name'); ?>"/></a>
         </div>
         <div class="small-12 medium-12 large-3 columns">
           <p class="footer-item">
@@ -18,8 +18,8 @@
           <p class="footer-item">
             <span style="font-size: 16px;">FOLLOW US</span>
             <br><br>
-            <img src="/Accent/wp-content/uploads/2017/03/accent_instagram.png" alt="Instagram" class="social-icon" />
-            <img src="/Accent/wp-content/uploads/2017/03/accent_facebook.png" alt="Facebook" class="social-icon"/>
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/accent_instagram.png" alt="Instagram" class="social-icon" />
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/accent_facebook.png" alt="Facebook" class="social-icon"/>
           </p>
         </div>
         <div class="small-12 medium-3 columns">

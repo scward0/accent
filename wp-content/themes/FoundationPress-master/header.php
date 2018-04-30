@@ -14,7 +14,7 @@
 
       <div id="header" class="fixed transition" style="position: fixed; width: 100%; z-index: 10000;">
       <header class="row no-max pad main">
-        <div id="hamburger" class="show-for-small-only">
+        <div id="hamburger" class="show-for-small-only" style="z-index: 100000;">
           <div id="nav-icon3">
             <span></span>
             <span></span>
@@ -24,11 +24,11 @@
         </div>
 
         <style media="screen">
-        @media screen and (max-width: 768px){
-          .desk-logo{
-            width: 100px;
+          @media screen and (max-width: 768px){
+            .desk-logo{
+              width: 100px;
+            }
           }
-        }
         </style>
 
         <a class="desk-logo" href="<?php bloginfo('url'); ?>"><img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/new_accent_logo.png" width="200" alt="<?php bloginfo('name'); ?>"/></a>

@@ -14,7 +14,7 @@
         <br>
       </div>
       <div class="arrow">
-        <img src="/Accent/wp-content/uploads/2017/03/arrow-down@2x.png" alt="Arrow Down" width="100px" style="position: absolute; top: 90%; left: 50%; transform: translateX(-50%) translateY(-50%);" />
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/arrow-down@2x.png" alt="Arrow Down" width="100px" style="position: absolute; top: 90%; left: 50%; transform: translateX(-50%) translateY(-50%);" />
       </div>
     </div>
   </div>
@@ -30,13 +30,13 @@
     </div>
     <div class="row" style="padding: 3%;">
       <div class="columns small-12 medium-6 large-4 text-center">
-        <a target="_blank" href="http://www.tilewarehousehawaii.com/"><img src="/Accent/wp-content/uploads/2017/03/6025344_orig.jpg" alt="Tile Warehouse, Inc" /></a>
+        <a target="_blank" href="http://www.tilewarehousehawaii.com/"><img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/6025344_orig.jpg" alt="Tile Warehouse, Inc" /></a>
       </div>
       <div class="columns small-12 medium-6 large-4 text-center">
-        <a target="_blank" href="http://www.designcraftcabinets.com/"><img src="/Accent/wp-content/uploads/2017/03/6258217_orig.jpg" alt="Design Craft" /></a>
+        <a target="_blank" href="http://www.designcraftcabinets.com/"><img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/6258217_orig.jpg" alt="Design Craft" /></a>
       </div>
       <div class="columns small-12 medium-6 large-4 text-center">
-        <a target="_blank" href="http://www.medallioncabinetry.com/"><img src="/Accent/wp-content/uploads/2017/03/895803_orig.gif" alt="Medallion Cabinetry" /></a>
+        <a target="_blank" href="http://www.medallioncabinetry.com/"><img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/895803_orig.gif" alt="Medallion Cabinetry" /></a>
       </div>
     </div>
   </div>

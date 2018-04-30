@@ -27,7 +27,7 @@
 
         </div>
         <div class="arrow">
-          <img src="/Accent/wp-content/uploads/2017/03/arrow-down@2x.png"  width="100px" alt="Arrow Down" style="position: absolute; top: 90%; left: 50%; transform: translateX(-50%) translateY(-50%);" />
+          <img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/arrow-down@2x.png"  width="100px" alt="Arrow Down" style="position: absolute; top: 90%; left: 50%; transform: translateX(-50%) translateY(-50%);" />
         </div>
       </div>
     </div>
