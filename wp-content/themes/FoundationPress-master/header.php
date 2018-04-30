@@ -28,7 +28,6 @@
           .desk-logo{
             width: 100px;
           }
-
         }
         </style>
 

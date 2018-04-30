@@ -23,7 +23,9 @@
           </p>
         </div>
         <div class="small-12 medium-3 columns">
-          &nbsp;
+          <p class="footer-item">
+            <span style="font-size: 16px;">PARTNERS</span>
+          </p>
         </div>
       </div>
     </div>
