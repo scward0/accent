@@ -32,7 +32,7 @@
         }
         </style>
 
-        <a class="desk-logo" href="<?php bloginfo('url'); ?>"><img src="/Accent/wp-content/uploads/2017/03/new_accent_logo.png" width="200" alt="<?php bloginfo('name'); ?>"/></a>
+        <a class="desk-logo" href="<?php bloginfo('url'); ?>"><img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/new_accent_logo.png" width="200" alt="<?php bloginfo('name'); ?>"/></a>
         <nav id="mainnav" class="mainnav" role="navigation">
           <?php
             $defaults = array(
@@ -44,7 +44,6 @@
             wp_nav_menu($defaults)
            ?>
         </nav>
-
 
         <div class="mobile-nav hide">
           <?php
