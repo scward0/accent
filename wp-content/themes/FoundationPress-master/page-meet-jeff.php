@@ -20,7 +20,7 @@
   </div>
 
   <div class="container" style="background: #4d4d4d;">
-    <div class="row" style="padding: 100px;">
+    <div class="row" style="padding: 3%;">
       <div class="columns small-12 medium-6 large-3 text-center">
         <img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/headshot2.jpg" alt="">
       </div>
