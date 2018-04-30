@@ -37,7 +37,7 @@
           <?php
             $defaults = array(
               'container' => false,
-              'theme_location' => 'primary-menu',
+              'theme_location' => 'main-nav',
               'menu_class' => 'no-bullet menu sticky cap hide-for-small-only'
             );
 
@@ -49,7 +49,7 @@
           <?php
             $defaults = array(
               'container' => false,
-              'theme_location' => 'primary-menu',
+              'theme_location' => 'main-nav',
               'menu_class' => 'no-bullet menu-vertical transition text-center'
             );
 

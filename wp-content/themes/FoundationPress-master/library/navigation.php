@@ -9,7 +9,7 @@
 
 register_nav_menus(array(
 	'top-bar-r'  => 'Right Top Bar',
-	'primary-menu' => 'Primary Menu',
+	'main-nav' => 'Main Nav',
 ));
 
 
