@@ -50,17 +50,17 @@
             $i++;
             ?>
             <div class="columns small-12 large-6">
-              <a href="#" data-open="image-<?php echo $i ?>" >
-                <img src="<?php the_sub_field('image');?>" alt="" style="padding: 5px;"/>
-              </a>
-              <div class="text-center">
+              <!-- <a href="#" data-open="image-<?php echo $i ?>" > -->
+                <img src="<?php the_sub_field('image');?>" alt="Accent Design Gallery Image" style="padding: 5px;"/>
+              <!-- </a> -->
+              <!-- <div class="text-center">
                 <div id="image-<?php echo $i ?>" class="reveal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                   <button class="close-button" data-close aria-label="Close modal" type="button">
                     <span aria-hidden="true">&times;</span>
                   </button>
-                  <img src="<?php the_sub_field('image');?>"  alt="" style="display: block; margin-left: auto; margin-right: auto; padding: 20px;" />
+                  <img src="<?php the_sub_field('image');?>"  alt="Accent Design Gallery Image" style="display: block; margin-left: auto; margin-right: auto; padding: 20px;" />
                 </div>
-              </div>
+              </div> -->
             </div>
             <?php
             endwhile;
@@ -79,17 +79,17 @@
             $i++;
             ?>
             <div class="columns small-12 large-6">
-              <a href="#" data-open="before-image-<?php echo $i ?>" >
-                <img src="<?php the_sub_field('image');?>" alt="" style="padding: 5px;"/>
-              </a>
-              <div class="text-center">
+              <!-- <a href="#" data-open="before-image-<?php echo $i ?>" > -->
+                <img src="<?php the_sub_field('image');?>" alt="Accent Design Gallery Image" style="padding: 5px;"/>
+              <!-- </a> -->
+              <!-- <div class="text-center">
                 <div id="before-image-<?php echo $i ?>" class="reveal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                   <button class="close-button" data-close aria-label="Close modal" type="button">
                     <span aria-hidden="true">&times;</span>
                   </button>
                   <img src="<?php the_sub_field('image');?>"  alt="" style="display: block; margin-left: auto; margin-right: auto; padding: 20px;" />
                 </div>
-              </div>
+              </div> -->
             </div>
             <?php
             endwhile;
