@@ -11,17 +11,15 @@
             <span style="font-size: 16px;">LET'S TALK</span>
             <br><br>
             808-295-8501<br>
-            jeff.accentdesign@gmail.com
+            <a href="mailto:jeff@accentdesignhawaii.com" style="color: white;">jeff@accentdesignhawaii.com</a>
           </p>
         </div>
         <div class="small-12 medium-12 large-3 columns">
           <p class="footer-item">
             <span style="font-size: 16px;">FOLLOW US</span>
             <br><br>
-            <img src="/Accent/wp-content/uploads/2017/03/accent_pinterest.png" alt="Pinterest" class="social-icon" style="padding-left: 0px;"/>
             <img src="/Accent/wp-content/uploads/2017/03/accent_instagram.png" alt="Instagram" class="social-icon" />
-            <img src="/Accent/wp-content/uploads/2017/03/accent_facebook.png" alt="" class="social-icon"/>
-            <img src="/Accent/wp-content/uploads/2017/03/accent_twitter.png" alt="" class="social-icon"/>
+            <img src="/Accent/wp-content/uploads/2017/03/accent_facebook.png" alt="Facebook" class="social-icon"/>
           </p>
         </div>
         <div class="small-12 medium-3 columns">
