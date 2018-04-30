@@ -20,7 +20,7 @@
   </div>
 
   <div class="container" style="background: #4d4d4d;">
-    <div class="row" style="padding: 3%;">
+    <div class="row" style="padding: 5%;">
       <?php
       $phrase = get_the_content();
       $phrase = apply_filters('the_content', $phrase);
@@ -28,15 +28,15 @@
       echo str_replace('<p>', $replace, $phrase);
       ?>
     </div>
-    <div class="row" style="padding: 3%;">
+    <div class="row" style="padding: 5%;">
       <div class="columns small-12 medium-6 large-4 text-center">
-        <a target="_blank" href="http://www.tilewarehousehawaii.com/"><img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/6025344_orig.jpg" alt="Tile Warehouse, Inc" /></a>
+        <a target="_blank" href="http://www.tilewarehousehawaii.com/"><img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/6025344_orig.jpg" alt="Tile Warehouse, Inc" style="margin: 15px 0;" /></a>
       </div>
       <div class="columns small-12 medium-6 large-4 text-center">
-        <a target="_blank" href="http://www.designcraftcabinets.com/"><img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/6258217_orig.jpg" alt="Design Craft" /></a>
+        <a target="_blank" href="http://www.designcraftcabinets.com/"><img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/6258217_orig.jpg" alt="Design Craft" style="margin: 15px 0;" /></a>
       </div>
       <div class="columns small-12 medium-6 large-4 text-center">
-        <a target="_blank" href="http://www.medallioncabinetry.com/"><img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/895803_orig.gif" alt="Medallion Cabinetry" /></a>
+        <a target="_blank" href="http://www.medallioncabinetry.com/"><img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/895803_orig.gif" alt="Medallion Cabinetry"  style="margin: 15px 0;"/></a>
       </div>
     </div>
   </div>
