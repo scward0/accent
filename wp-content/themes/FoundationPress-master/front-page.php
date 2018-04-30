@@ -22,9 +22,18 @@ $query = new WP_Query ($args);
 
  ?>
 
+ <style media="screen">
+  @media screen and (max-width: 768px){
+    .top-headline{
+      font-size: 36px !important;
+    }
+  }
+
+ </style>
+
 <section class="row no-max collapse" id='projects' style="padding: 0; margin: 0; background: black;">
   <br><br><br><br><br>
-  <h1 class="text-center" style="font-size: 50px; padding-bottom: 0; color: white;">PROJECTS<br><span style="border-bottom: 1px solid white; padding: 0; margin: 0; line-height: 0; font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></h1>
+  <h1 class="text-center top-headline" style="font-size: 50px; padding-bottom: 0; color: white;">PROJECTS<br><span style="border-bottom: 1px solid white; padding: 0; margin: 0; line-height: 0; font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></h1>
   <br><br><br><br><br>
   <?php if( $query->have_posts() ) : while($query->have_posts() ) : $query->the_post(); ?>
     <div class="small-12 medium-6 large-6 columns " style="padding: 0; margin: 0;">
