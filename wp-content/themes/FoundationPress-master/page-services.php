@@ -30,24 +30,13 @@
     </div>
     <div class="row" style="padding: 3%;">
       <div class="columns small-12 medium-6 large-4 text-center">
-        <a target="_blank" href="http://platinumcabinetry.com/"><img src="/Accent/wp-content/uploads/2017/03/1476580_orig.jpg" alt="Platinum Cabinetry" /></a>
-      </div>
-      <div class="columns small-12 medium-6 large-4 text-center">
-        <a target="_blank" href="http://www.medallioncabinetry.com/"><img src="/Accent/wp-content/uploads/2017/03/895803_orig.gif" alt="Medallion Cabinetry" /></a>
-      </div>
-      <div class="columns small-12 medium-6 large-4 text-center">
-        <a target="_blank" href="http://www.yorktownecabinetry.com/"><img src="/Accent/wp-content/uploads/2017/03/6912167_orig.jpg" alt="Yorktowne Cabinetry" /></a>
-      </div>
-    </div>
-    <div class="row" style="padding: 3%;">
-      <div class="columns small-12 medium-6 large-4 text-center">
         <a target="_blank" href="http://www.tilewarehousehawaii.com/"><img src="/Accent/wp-content/uploads/2017/03/6025344_orig.jpg" alt="Tile Warehouse, Inc" /></a>
       </div>
       <div class="columns small-12 medium-6 large-4 text-center">
         <a target="_blank" href="http://www.designcraftcabinets.com/"><img src="/Accent/wp-content/uploads/2017/03/6258217_orig.jpg" alt="Design Craft" /></a>
       </div>
       <div class="columns small-12 medium-6 large-4 text-center">
-        <a target="_blank" href="http://www.sunsettileandstone.com/"><img src="/Accent/wp-content/uploads/2017/03/8073838_orig.png" alt="Subset Tile and Stone" /></a>
+        <a target="_blank" href="http://www.medallioncabinetry.com/"><img src="/Accent/wp-content/uploads/2017/03/895803_orig.gif" alt="Medallion Cabinetry" /></a>
       </div>
     </div>
   </div>
