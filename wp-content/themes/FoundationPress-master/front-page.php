@@ -4,7 +4,7 @@
     <div class="headline">
       <h1 class="text-center" style="color: white; font-size: 50px;">WHAT IS YOUR VISION?</h1>
       <p class="text-center" style="color: white; font-size: 16px;">
-        We're a Honolulu, Hawaii home design and remodeling company collaboratively combining our expertise and your concepts to turn vision into reality.
+        We’re a Honolulu-based home design and remodeling company with just one goal: to turn your vision for the perfect home into reality.  Whether you want to update a single room, or have a complete renovation in mind, our collaborative approach, full-service expertise, and exceptional attention to detail will ensure that the results exceed your expectations.
       </p>
     </div>
     <div class="arrow">
