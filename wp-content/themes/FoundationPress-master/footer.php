@@ -25,10 +25,10 @@
         <div class="small-12 medium-3 columns">
           <p class="footer-item">
             <span style="font-size: 16px;">PARTNERS</span>
-            <br>
-            <a href="http://www.tilewarehousehawaii.com/" style="color: white; text-decoration: underline;">Tile Warehouse Inc.</a><br>
-            <a href="http://www.designcraftcabinets.com/" style="color: white; text-decoration: underline;">Design Craft Cabinets</a><br>
-            <a href="http://www.medallioncabinetry.com/" style="color: white; text-decoration: underline;">Medallion Cabinetry</a>
+            <br><br>
+            <a href="http://www.tilewarehousehawaii.com/" style="color: white;font-size: 14px; text-decoration: underline;">Tile Warehouse Inc.</a><br>
+            <a href="http://www.designcraftcabinets.com/" style="color: white;font-size: 14px; text-decoration: underline;">Design Craft Cabinets</a><br>
+            <a href="http://www.medallioncabinetry.com/" style="color: white;font-size: 14px; text-decoration: underline;">Medallion Cabinetry</a>
           </p>
         </div>
       </div>
