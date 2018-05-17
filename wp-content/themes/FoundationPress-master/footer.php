@@ -10,8 +10,8 @@
           <p class="footer-item">
             <span style="font-size: 16px;">LET'S TALK</span>
             <br><br>
-            808-295-8501<br>
-            <a href="mailto:jeff@accentdesignhawaii.com" style="color: white;">jeff@accentdesignhawaii.com</a>
+            <span style="font-size: 14px;">808-295-8501</span><br>
+            <a href="mailto:jeff@accentdesignhawaii.com" style="color: white; font-size: 14px;">jeff@accentdesignhawaii.com</a>
           </p>
         </div>
         <div class="small-12 medium-12 large-3 columns">
