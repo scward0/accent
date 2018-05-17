@@ -9,22 +9,29 @@
         <div class="small-12 medium-12 large-3 columns">
           <p class="footer-item">
             <span style="font-size: 16px;">LET'S TALK</span>
-            <br><br>
-            808-295-8501<br>
-            <a href="mailto:jeff@accentdesignhawaii.com" style="color: white;">jeff@accentdesignhawaii.com</a>
+            <p class="footer-item">
+              <span style="font-size: 16px;">LET'S TALK</span>
+              <br><br>
+              808-295-8501<br>
+              <a href="mailto:jeff@accentdesignhawaii.com" style="color: white;">jeff@accentdesignhawaii.com</a>
+            </p>
           </p>
         </div>
         <div class="small-12 medium-12 large-3 columns">
           <p class="footer-item">
             <span style="font-size: 16px;">FOLLOW US</span>
             <br><br>
-            <img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/accent_instagram.png" alt="Instagram" class="social-icon" />
-            <img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/accent_facebook.png" alt="Facebook" class="social-icon"/>
+            <a href="#"><img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/accent_instagram.png" alt="Instagram" class="social-icon" /></a>
+            <a href="#"><img src="<?php echo site_url(); ?>/wp-content/uploads/2017/03/accent_facebook.png" alt="Facebook" class="social-icon"/></a>
           </p>
         </div>
         <div class="small-12 medium-3 columns">
           <p class="footer-item">
             <span style="font-size: 16px;">PARTNERS</span>
+            <br><br>
+            <a href="http://www.tilewarehousehawaii.com/" style="color: white; text-decoration: underline;">Tile Warehouse Inc.</a>
+            <a href="http://www.designcraftcabinets.com/" style="color: white; text-decoration: underline;">Design Craft Cabinets</a>
+            <a href="http://www.medallioncabinetry.com/" style="color: white; text-decoration: underline;">Medallion Cabinetry</a>
           </p>
         </div>
       </div>
