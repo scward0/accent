@@ -9,12 +9,9 @@
         <div class="small-12 medium-12 large-3 columns">
           <p class="footer-item">
             <span style="font-size: 16px;">LET'S TALK</span>
-            <p class="footer-item">
-              <span style="font-size: 16px;">LET'S TALK</span>
-              <br><br>
-              808-295-8501<br>
-              <a href="mailto:jeff@accentdesignhawaii.com" style="color: white;">jeff@accentdesignhawaii.com</a>
-            </p>
+            <br><br>
+            808-295-8501<br>
+            <a href="mailto:jeff@accentdesignhawaii.com" style="color: white;">jeff@accentdesignhawaii.com</a>
           </p>
         </div>
         <div class="small-12 medium-12 large-3 columns">
@@ -28,9 +25,9 @@
         <div class="small-12 medium-3 columns">
           <p class="footer-item">
             <span style="font-size: 16px;">PARTNERS</span>
-            <br><br>
-            <a href="http://www.tilewarehousehawaii.com/" style="color: white; text-decoration: underline;">Tile Warehouse Inc.</a>
-            <a href="http://www.designcraftcabinets.com/" style="color: white; text-decoration: underline;">Design Craft Cabinets</a>
+            <br>
+            <a href="http://www.tilewarehousehawaii.com/" style="color: white; text-decoration: underline;">Tile Warehouse Inc.</a><br>
+            <a href="http://www.designcraftcabinets.com/" style="color: white; text-decoration: underline;">Design Craft Cabinets</a><br>
             <a href="http://www.medallioncabinetry.com/" style="color: white; text-decoration: underline;">Medallion Cabinetry</a>
           </p>
         </div>
