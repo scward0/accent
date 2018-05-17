@@ -39,7 +39,7 @@
     <div class="container">
       <br><br>
       <p class="text-center" style="font-size: 32px; font-weight: bold;">
-        GALLERY
+        AFTER RENOVATIONS
       </p>
       <div class="row">
       <?php
@@ -68,7 +68,7 @@
         ?>
       </div>
       <p class="text-center" style="font-size: 28px; font-weight: bold;">
-        BEFORE
+        BEFORE RENOVATIONS
       </p>
       <div class="row">
       <?php

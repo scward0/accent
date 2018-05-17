@@ -178,9 +178,10 @@ header h1 {
   font-weight: 500;
   text-decoration: none;
   outline: none;
+  text-shadow: 2px 2px rbga(0,0,0,.5);
 }
 #mainnav ul li a:hover {
-  color: #d65050;
+  color: #fed900;
 }
 #mainnav ul ul a {
   width: 180px;
