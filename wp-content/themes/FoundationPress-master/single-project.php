@@ -68,6 +68,7 @@
         ?>
       </div>
       <p class="text-center" style="font-size: 28px; font-weight: bold;">
+        <br><br>
         BEFORE RENOVATIONS
       </p>
       <div class="row">
